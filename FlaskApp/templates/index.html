@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Productivity Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <div class="left-panel">
+        <h1>Employee Productivity<br>Prediction Using ML</h1>
+
+        <form action="/predict" method="post">
+            <input type="number" step="any" name="no_of_workers" placeholder="No. of Workers" required>
+            <input type="number" step="any" name="no_of_style_change" placeholder="No. of Style Change" required>
+            <input type="number" step="any" name="targeted_productivity" placeholder="Targeted Productivity" required>
+            <input type="number" step="any" name="smv" placeholder="SMV" required>
+            <input type="number" step="any" name="wip" placeholder="WIP" required>
+            <input type="number" step="any" name="over_time" placeholder="Over Time" required>
+            <input type="number" step="any" name="incentive" placeholder="Incentive" required>
+            <input type="number" step="any" name="idle_time" placeholder="Idle Time" required>
+            <input type="number" step="any" name="idle_men" placeholder="Idle Men" required>
+
+            <button type="submit">PREDICT</button>
+        </form>
+    </div>
+
+    <div class="right-panel">
+        <img src="{{ url_for('static', filename='worker.png') }}" alt="Employee Illustration">
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "model_name": "Garment Worker Productivity",
+  "algorithm": "RandomForestRegressor",
+  "framework": "scikit-learn"
+}

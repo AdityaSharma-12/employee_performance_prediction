@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Productivity Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="result-container">
+    <h1>Employee Productivity Prediction</h1>
+
+    <div class="dashboard">
+        <!-- Prediction Score -->
+        <div class="card">
+            <h3>Predicted Productivity Score</h3>
+            <p class="score">{{ prediction }}</p>
+        </div>
+
+        <!-- Performance Analytics -->
+        <div class="card" onclick="toggleDetail('analytics1')">📊 Performance Analytics</div>
+        <div id="analytics1" class="analytics-detail">
+            <canvas id="performanceChart"></canvas>
+        </div>
+
+        <!-- Productivity Trend -->
+        <div class="card" onclick="toggleDetail('analytics2')">📈 Productivity Trend</div>
+        <div id="analytics2" class="analytics-detail">
+            <canvas id="trendChart"></canvas>
+        </div>
+
+        <!-- Target Achievement -->
+        <div class="card" onclick="toggleDetail('analytics3')">🎯 Target Achievement</div>
+        <div id="analytics3" class="analytics-detail">
+            <p>Target vs Actual Productivity</p>
+            <div class="progress-container">
+                <div class="progress-bar" style="width:{{ target_achievement }}%">
+                    {{ target_achievement }}%
+                </div>
+            </div>
+            <p>Target: {{ targeted_productivity }}</p>
+        </div>
+
+        <!-- Efficiency Index -->
+        <div class="card" onclick="toggleDetail('analytics4')">⚙ Efficiency Index</div>
+        <div id="analytics4" class="analytics-detail">
+            <canvas id="efficiencyChart"></canvas>
+        </div>
+
+        <!-- Report Summary -->
+        <div class="card" onclick="toggleDetail('analytics5')">📋 Report Summary</div>
+        <div id="analytics5" class="analytics-detail" style="display:block;">
+            <p>{{ summary|safe }}</p>
+        </div>
+    </div>
+
+    <a href="/" class="back-btn">Go Back</a>
+</div>
+
+<script>
+function toggleDetail(id) {
+    var x = document.getElementById(id);
+    x.style.display = (x.style.display === "none" || x.style.display === "") ? "block" : "none";
+}
+
+// Sample Chart.js data
+var ctx1 = document.getElementById('performanceChart').getContext('2d');
+new Chart(ctx1, {
+    type: 'pie',
+    data: {
+        labels: ['Completed Tasks', 'Pending Tasks', 'Delayed Tasks'],
+        datasets: [{ data: [50, 30, 20], backgroundColor: ['#00c853', '#ffca28', '#ef5350'] }]
+    }
+});
+
+var ctx2 = document.getElementById('trendChart').getContext('2d');
+new Chart(ctx2, {
+    type: 'line',
+    data: {
+        labels: ['Week 1','Week 2','Week 3','Week 4'],
+        datasets: [{ label: 'Productivity', data: [0.7,0.8,0.75,0.95], borderColor: '#1a73e8', fill:false, tension:0.3 }]
+    }
+});
+
+var ctx3 = document.getElementById('efficiencyChart').getContext('2d');
+new Chart(ctx3, {
+    type: 'bar',
+    data: {
+        labels: ['Team A','Team B','Team C'],
+        datasets: [{ label: 'Efficiency (%)', data: [85,90,78], backgroundColor: '#00c853' }]
+    },
+    options: { scales: { y: { beginAtZero:true, max:100 } } }
+});
+</script>
+
+</body>
+</html>

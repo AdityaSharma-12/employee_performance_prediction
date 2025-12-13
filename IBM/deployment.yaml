@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: garment-productivity
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: garment
+  template:
+    metadata:
+      labels:
+        app: garment
+    spec:
+      containers:
+      - name: garment
+        image: garment-productivity
+        ports:
+        - containerPort: 5000
