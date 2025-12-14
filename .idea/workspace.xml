@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="422289b6-40f2-4060-b14e-88ebf8904cfb" name="Changes" comment="initial upload">
-      <change afterPath="$PROJECT_DIR$/FlaskApp/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="422289b6-40f2-4060-b14e-88ebf8904cfb" name="Changes" comment="initial upload" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,8 +80,8 @@
       <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction\FlaskApp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction" />
       <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction\FlaskApp" />
+      <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction" />
       <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction\models" />
     </key>
   </component>
@@ -106,7 +104,7 @@
       <workItem from="1765473001913" duration="3303000" />
       <workItem from="1765558414878" duration="3039000" />
       <workItem from="1765604883616" duration="10784000" />
-      <workItem from="1765689696028" duration="8908000" />
+      <workItem from="1765689696028" duration="9245000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <option name="closed" value="true" />
@@ -188,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765699647012</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="initial upload">
+      <option name="closed" value="true" />
+      <created>1765700113497</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765700113497</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
