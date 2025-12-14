@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="422289b6-40f2-4060-b14e-88ebf8904cfb" name="Changes" comment="initial upload">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlaskApp/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,7 @@
       <workItem from="1765473001913" duration="3303000" />
       <workItem from="1765558414878" duration="3039000" />
       <workItem from="1765604883616" duration="10784000" />
-      <workItem from="1765689696028" duration="8464000" />
+      <workItem from="1765689696028" duration="8908000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <option name="closed" value="true" />
@@ -182,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765698980174</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="initial upload">
+      <option name="closed" value="true" />
+      <created>1765699647012</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765699647012</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
