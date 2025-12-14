@@ -14,5 +14,8 @@ COPY FlaskApp /app
 # Expose the standard port the server will run on
 EXPOSE 8000
 
-# Command to run your application using Gunicorn (as defined in your Procfile)
-CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:8000", "app:app"]
+# OLD LINE:
+# CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:8000", "app:app"]
+
+# NEW LINE:
+CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:8000", "FlaskApp.app:app"]

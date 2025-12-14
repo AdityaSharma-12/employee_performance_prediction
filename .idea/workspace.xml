@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="422289b6-40f2-4060-b14e-88ebf8904cfb" name="Changes" comment="initial upload">
-      <change beforePath="$PROJECT_DIR$/FlaskApp/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskApp/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskApp/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskApp/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskApp/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskApp/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +85,7 @@
       <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction\FlaskApp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction" />
       <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction\FlaskApp" />
       <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction\models" />
     </key>
@@ -105,7 +109,7 @@
       <workItem from="1765473001913" duration="3303000" />
       <workItem from="1765558414878" duration="3039000" />
       <workItem from="1765604883616" duration="10784000" />
-      <workItem from="1765689696028" duration="6683000" />
+      <workItem from="1765689696028" duration="7359000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <option name="closed" value="true" />
@@ -139,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765697324535</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial upload">
+      <option name="closed" value="true" />
+      <created>1765697742003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765697742003</updated>
+    </task>
+    <task id="LOCAL-00006" summary="initial upload">
+      <option name="closed" value="true" />
+      <created>1765697974982</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765697974982</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
