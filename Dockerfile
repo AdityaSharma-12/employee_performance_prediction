@@ -14,8 +14,5 @@ COPY FlaskApp /app
 # Expose the standard port the server will run on
 EXPOSE 8000
 
-# OLD LINE:
-# CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:8000", "app:app"]
-
-# NEW LINE:
-CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:8000", "FlaskApp.app:app"]
+# NEW, CORRECT LINE:
+CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:8000", "app:app"]
