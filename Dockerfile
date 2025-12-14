@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application files (app.py, templates, gwp.pkl, etc.)
-COPY . /app
+COPY FlaskApp /app
 
 # Expose the standard port the server will run on
 EXPOSE 8000

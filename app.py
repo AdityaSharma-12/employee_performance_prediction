@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Load your trained ML model
-model = pickle.load(open('gwp.pkl', 'rb'))
+model = pickle.load(open('FlaskApp/gwp.pkl', 'rb'))
 
 # Define the exact column names used during training
 FEATURE_COLUMNS = [
