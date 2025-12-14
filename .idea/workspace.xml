@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="422289b6-40f2-4060-b14e-88ebf8904cfb" name="Changes" comment="k" />
+    <list default="true" id="422289b6-40f2-4060-b14e-88ebf8904cfb" name="Changes" comment="initial upload">
+      <change afterPath="$PROJECT_DIR$/FlaskApp/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlaskApp/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskApp/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FlaskApp/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,20 +23,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="adity &lt;adityanex2003@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AdityaSharma-12"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AdityaSharma-12&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AdityaSharma-12/employee_performance_prediction.git",
-    "accountId": "d605030c-d5a8-49f3-aa43-7d5e331fed69"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AdityaSharma-12/employee_performance_prediction.git&quot;,
+    &quot;accountId&quot;: &quot;d605030c-d5a8-49f3-aa43-7d5e331fed69&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <hideBySeverity>
       <option value="300" />
@@ -53,6 +63,7 @@
     "Python.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
@@ -74,6 +85,7 @@
       <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction\FlaskApp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction\FlaskApp" />
       <recent name="C:\Users\adity\PycharmProjects\machine learning approach for employee performance prediction\models" />
     </key>
   </component>
@@ -95,7 +107,8 @@
       <workItem from="1765431226076" duration="2098000" />
       <workItem from="1765473001913" duration="3303000" />
       <workItem from="1765558414878" duration="3039000" />
-      <workItem from="1765604883616" duration="9972000" />
+      <workItem from="1765604883616" duration="10784000" />
+      <workItem from="1765689696028" duration="3741000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <option name="closed" value="true" />
@@ -105,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765614733107</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial upload">
+      <option name="closed" value="true" />
+      <created>1765615371391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765615371391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,10 +145,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="k" />
-    <option name="LAST_COMMIT_MESSAGE" value="k" />
+    <MESSAGE value="initial upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial upload" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/machine_learning_approach_for_employee_performance_prediction$app.coverage" NAME="app Coverage Results" MODIFIED="1765614832154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlaskApp" />
+    <SUITE FILE_PATH="coverage/machine_learning_approach_for_employee_performance_prediction$app.coverage" NAME="app Coverage Results" MODIFIED="1765693910924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlaskApp" />
     <SUITE FILE_PATH="coverage/machine_learning_approach_for_employee_performance_prediction$Employee_Prediction_ipynb.coverage" NAME="Employee_Prediction.ipynb Coverage Results" MODIFIED="1765608351199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TrainingFiles" />
   </component>
 </project>
