@@ -17,12 +17,4 @@ The objective is to provide an analytical tool that uses historical data to fore
     
     Deployment: The trained model is saved using pickle and loaded into a Flask server for real-time inference.
 
-🛠️ Technical Stack
 
-Category	      Technology	                      Role 
-Core Language	  Python 3.x	                    Backend logic and machine learning tasks.
-Web Framework	   Flask	                        Serves the web interface and handles API requests.
-Machine Learning  Scikit-learn, Pandas, NumPy	Model training, data handling, and preparation.
-Model Persistence	Pickle	                    Serializes the trained model for loading in the production environment.
-Interface	         HTML	                        Creates the user-friendly data input form and displays results.
-Hosting	           Render 	                     Platform hosting the live web application.
