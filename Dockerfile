@@ -9,10 +9,11 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application files (app.py, templates, gwp.pkl, etc.)
-COPY FlaskApp /app
+COPY FlaskApp /app/FlaskApp
 
 # Expose the standard port the server will run on
 EXPOSE 8000
 
 # NEW, CORRECT LINE:
-CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:8000", "app:app"]
+# In your Dockerfile:
+CMD ["gunicorn", "--workers", "4", "--bind", "0.0.0.0:8000", "FlaskApp.app:app"]
